@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height:60px; 
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+ 
+.nav-logo{
+    height:50px;
+    width: 100px;
+    background-image: url("amazon.png");
+    background-size:cover;
+}
+.border{
+    border: 1.2px solid transparent;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 3%;
+}
+.border:hover{
+    border: 1.2px solid whitesmoke;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 3%;
+}
+.nav-address{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+.deliver{
+    margin-left: 25px;
+    font-size: 0.75rem;
+    color: #cccccc;
+}
+.country{
+    margin-left: 4px;
+    display: inline;
+    width: 40px;
+    
+}
+.location{
+    width: 10px;
+}
+.icon{
+    display: flex;
+}
+.search_bar{
+    height: 40px;
+    width: 900px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    border-radius: 5%;
+    
+}
+.input {
+    height: 38px;
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.select{
+    text-align: center;
+    height: 40px;
+    background-color: #f3f3f3;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border: none;
+}
+.magnifying_glass{
+    height: 40px;
+    width: 45px;
+    font-size: 1.2rem;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    color: #0f1111;
+}
+.search_bar:hover{
+    border: 2px solid orange;
+    border-radius: 5%;
+}
+.account{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.sign{
+    font-size: 0.75rem;
+    /* position: relative;
+    /* top: 1x; */
+    /* left: -23px; */ 
+}
+.nav-signin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.return{
+    font-size: 0.75rem;
+}
+.order{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-return{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cart-icon{
+    font-size: 1.5rem;
+}
+.nav-cart{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+   
+}
+.Cart{
+    padding-left: 5px;
+}
+.nav-menu{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.All{
+   margin-left: 5px;
+}
+.menu-icon{
+    font-size: 1.5rem;
+}
+.pannel{
+    background-color: #222f3d;
+    height: 40px;
+    display: flex;
+}
+.allign{
+    height:40px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 14px;
+    color:#ffffff;
+    font-weight: 500;
+}
+.pannel-icon{
+    display: flex;
+}
+.pannel-all{
+    padding-left: 5px;
+}
+.menu{
+    font-size: 1.3rem;
+}
+.border2{
+    border: 1px solid transparent;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 3%;
+    padding-left:5px ;
+    padding-right: 5px;
+}
+.border2:hover{
+    border: 1px solid whitesmoke;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 3%;
+    padding-left:5px ;
+    padding-right: 5px;
+}
+.box_end{
+    display: flex;
+    align-items:center;
+}
+.shop{
+    height: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 14px;
+    position: absolute;
+    right: 10px;
+}
+/* hero section */
+.hero{
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+.hero_info{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 1500px;
+    position: relative;
+    top: 300px;
+}
+.amazon_link{
+    text-decoration: none;
+    color: cadetblue;
+}
+.amazon_link:hover{
+    color: rgb(211, 62, 62);
+}
+/* content */
+.content{
+    width: 100%;
+    background-color: #cccccc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box{
+    height: 420px;
+    width: 350px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.b_link{
+    position: relative;
+    left: 20px;
+} 
+.b_link a{
+    color:steelblue;
+    text-decoration: none;
+}
+.b_link a:hover{
+    color: rgb(195, 58, 58);
+}
+.b_content {
+    margin-left: 20px;
+}
+.box1_image{
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/softlines/shopbop/ingress/2023/mp_20230210_newarrivals_desktopsinglecategory_desktop_758x608._SY608_CB613668625_.jpg");
+    height: 330px;
+    width: 310px;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.box2_image{
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2022/img/Amazon_Exports/XCM_CUTTLE_1469391_2584745_758x608_2X_en_US._SY608_CB609304299_.jpg");
+    height: 330px;
+    width: 310px;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.box3_image{
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/home/THILGMA/SpringEvent2023/XCM_CUTTLE_1559454_3018199_758x608_2X_en_US._SY608_CB592739737_.jpg");
+    height: 330px;
+    width: 310px;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.box4_image{
+    background-image: url("box2_image.jpg");
+    height: 330px;
+    width: 310px;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.box5_image{
+    background-image: url("box5_image.jpg");
+    height: 330px;
+    width: 310px;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.box6_image{
+    background-image: url("box6_image.jpg");
+    height: 330px;
+    width: 310px;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.box7_image{
+    background-image: url("box7_image.jpg");
+    height: 330px;
+    width: 310px;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.box8_image{
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Striplighting_758x608_2X_en_US._SY608_CB418597463_.jpg");
+    height: 330px;
+    width: 310px;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.footer {
+    background-color: #222f3d;
+} 
+.foot_pannel{
+    height: 50px;
+    width: 100%;
+    background-color: #37475a; 
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info{
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size:1.1rem ;
+}
+.more_info{
+    background-color: #222f3d;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    margin: 35px;
+}
+.foot_pannel2{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.more_info a{
+    color: #cccccc;
+    padding-bottom: 10px;
+}
+.foot_pannel3{
+    height: 70px;
+    width: 100%;
+    border-top: 0.5px solid whitesmoke;
+    border-bottom: 0.5px solid whitesmoke;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo2{
+    height:50px;
+    width: 100px;
+    background-image: url("amazon.png");
+    background-size:cover;
+}
+.foot_pannel4{
+    background-color: #0f1111;
+    height: 80px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.8rem;
+}
+.conditions{
+    padding-top:20px;
+}
+.conditions a{
+    padding: 10px;
+}
+.copy_rights{
+    padding-top:10px;
+}
